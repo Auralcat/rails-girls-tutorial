@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use carrierWave ->  Provides a simple way to upload files
+gem 'carrierwave'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
