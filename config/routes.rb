@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  # This was added by the command `rails generate controller pages info`
   get 'pages/info'
 
   root to: redirect('/ideas')
